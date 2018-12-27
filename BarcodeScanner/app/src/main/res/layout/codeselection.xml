@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Bar Code"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/barcodebtn"
+        android:layout_gravity="center" />
+
+    <Button
+        android:text="QR Code"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/qrcodebtn"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:text="Other Codes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/otrcodebtn"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Format"
+        android:id="@+id/tvStatus"
+        android:layout_below="@+id/butQR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ready"
+        android:id="@+id/tvResult"
+        android:layout_below="@+id/tvStatus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</LinearLayout>

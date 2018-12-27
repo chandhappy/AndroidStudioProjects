@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/Dark_Sea_Green"
+        android:gravity="end">
+
+        <ImageButton
+            android:id="@+id/page4home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:background="@mipmap/homebtn"
+            android:paddingLeft="10dp" />
+    </LinearLayout>-->
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="2"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp"
+                android:background="@color/Blue_Angel">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Progress of my topics"
+                    android:layout_span="3"
+                    android:textColor="@color/Black"
+                    android:textSize="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                 <ImageView
+                     android:id="@+id/imageView2"
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:layout_gravity="center"
+                     android:adjustViewBounds="true"
+                     android:background="@mipmap/profile"
+                     android:cropToPadding="false"
+                     android:focusableInTouchMode="true"
+                     /> 
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@mipmap/profile"
+                    android:cropToPadding="false"
+                    android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar4"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                  <ImageView
+                      android:id="@+id/imageView5"
+                      android:layout_width="40dp"
+                      android:layout_height="40dp"
+                      android:layout_gravity="center"
+                      android:adjustViewBounds="true"
+                      android:background="@mipmap/profile"
+                      android:cropToPadding="false"
+                      android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar6"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                   <ImageView
+                       android:id="@+id/imageView4"
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:layout_gravity="center"
+                       android:adjustViewBounds="true"
+                       android:background="@mipmap/profile"
+                       android:cropToPadding="false"
+                       android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar8"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView221"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/profile"
+                        android:cropToPadding="false"
+                        android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar212"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                     <ImageView
+                         android:id="@+id/imageView123"
+                         android:layout_width="40dp"
+                         android:layout_height="40dp"
+                         android:layout_gravity="center"
+                         android:adjustViewBounds="true"
+                         android:background="@mipmap/profile"
+                         android:cropToPadding="false"
+                         android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar214"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/profile"
+                        android:cropToPadding="false"
+                        android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar621"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView256"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:background="@mipmap/profile"
+                    android:cropToPadding="false"
+                    android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar61"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                     <ImageView
+                         android:id="@+id/imageView412"
+                         android:layout_width="40dp"
+                         android:layout_height="40dp"
+                         android:layout_gravity="center"
+                         android:adjustViewBounds="true"
+                         android:background="@mipmap/profile"
+                         android:cropToPadding="false"
+                         android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar28"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3122"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/profile"
+                        android:cropToPadding="false"
+                        android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar221"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                     <ImageView
+                         android:id="@+id/imageView43"
+                         android:layout_width="40dp"
+                         android:layout_height="40dp"
+                         android:layout_gravity="center"
+                         android:adjustViewBounds="true"
+                         android:background="@mipmap/profile"
+                         android:cropToPadding="false"
+                         android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar34"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView53"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/profile"
+                        android:cropToPadding="false"
+                        android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic3"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar63"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@mipmap/profile"
+                        android:cropToPadding="false"
+                        android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Topic"
+                    android:textColor="@color/Black"
+                    android:textSize="21dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar811"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/Blush_Red" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

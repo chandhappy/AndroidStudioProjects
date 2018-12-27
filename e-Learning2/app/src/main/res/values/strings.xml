@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">e-Learning</string>
+    <string-array name="country_arrays">
+        <item>Select your Location</item>
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="previous">Previous</string>
+    <string name="next">next</string>
+</resources>
